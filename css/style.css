@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+:root {
+    --primary-color: orange;
+    --secondary-color: #000;
+}
+
+/*XXXXXXXXXXXXXX
+XXXXXGENERALXXXX
+XXXXXXXXXXXXXXX*/
+
+li {
+    list-style: none;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*XXXXXXXXXXXXXX
+XXXXXHEADERXXXXX
+XXXXXXXXXXXXXXX*/
