@@ -56,7 +56,11 @@ XXXXXXXXXXXXXXX*/
 
 
 header {
+    /* display: none; */
+    width: 100vw;
     background-color: var(--header-color);
+    position: fixed;
+    z-index: 9999;
 }
 
 .header-nav {
@@ -86,7 +90,12 @@ header {
 XXXXXXMAINXXXXXX
 XXXXXXXXXXXXXXX*/
 
+/* main {
+    display: none;
+} */
+
 .row {
+    padding: 80px 0;
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -152,19 +161,13 @@ XXXXXXXXXXXXXXX*/
     background-color: var(--sost-bg);
 }
 
-.desc {}
-
 .desc>* {
     margin-bottom: 2px;
 }
 
-.brand {}
-
 .item-name {
     text-transform: uppercase;
 }
-
-.price-sect {}
 
 .price-sect .price {
     color: red;
