@@ -10,8 +10,26 @@ img {
 }
 
 :root {
-    --primary-color: orange;
-    --secondary-color: #000;
+    /* HEADER */
+    --header-color: #ff6900;
+
+    /* BOL LOGO #1a1a1a */
+    --logo-bol: #1a1a1a;
+
+    /* BGIMAGE #ebebeb */
+    --image-bg: #ebebeb;
+
+    /* SCONTO #ff0000 */
+    --scount-bg: #ff0000;
+
+    /* SOSTENIBILITA #008000 */
+    --sost-bg: #008000;
+
+    /* HEART COLOR */
+    --heart-color: #000;
+
+    /* FOOTER #1a1a1a */
+    --footer-bg: #1a1a1a;
 }
 
 /*XXXXXXXXXXXXXX
@@ -30,4 +48,83 @@ a {
 
 /*XXXXXXXXXXXXXX
 XXXXXHEADERXXXXX
+XXXXXXXXXXXXXXX*/
+
+
+header {
+    display: none;
+}
+
+/*XXXXXXXXXXXXXX
+XXXXXXMAINXXXXXX
+XXXXXXXXXXXXXXX*/
+
+.row {
+    background-color: lightgreen;
+}
+
+.card {
+    background-color: lightblue;
+    width: calc(95% / 3);
+    margin: auto;
+}
+
+.card-core {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 1em;
+    padding: 0.8em;
+    background-color: #fff;
+}
+
+.prom-banner {
+    position: absolute;
+    left: 0;
+    bottom: 2em;
+    display: flex;
+    gap: 0.3em;
+}
+
+.scount,
+.sost {
+    width: max-content;
+    padding: 0.2em 0.5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.scount {
+    background-color: var(--scount-bg);
+}
+
+.sost {
+    background-color: var(--sost-bg);
+}
+
+.desc {
+    background-color: #ff6900;
+}
+
+.desc>* {
+    background-color: blue;
+    margin-bottom: 2px;
+}
+
+.brand {}
+
+.item-name {}
+
+.sprice-sect {}
+
+.sprice-sect .price {}
+
+.sprice-sect .old {}
+
+
+/*XXXXXXXXXXXXXX
+XXXXXFOOTERXXXXX
 XXXXXXXXXXXXXXX*/
