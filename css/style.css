@@ -38,6 +38,7 @@ XXXXXXXXXXXXXXX*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 li {
@@ -54,9 +55,7 @@ a {
 XXXXXHEADERXXXXX
 XXXXXXXXXXXXXXX*/
 
-
 header {
-    /* display: none; */
     width: 100vw;
     background-color: var(--header-color);
     position: fixed;
@@ -89,10 +88,6 @@ header {
 /*XXXXXXXXXXXXXX
 XXXXXXMAINXXXXXX
 XXXXXXXXXXXXXXX*/
-
-/* main {
-    display: none;
-} */
 
 .row {
     padding: 80px 0;
@@ -135,6 +130,7 @@ XXXXXXXXXXXXXXX*/
     font-size: 1.2em;
     padding: 0.4em 0.6em;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .prom-banner {
@@ -182,3 +178,39 @@ XXXXXXXXXXXXXXX*/
 /*XXXXXXXXXXXXXX
 XXXXXFOOTERXXXXX
 XXXXXXXXXXXXXXX*/
+
+footer {
+    width: 100vw;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.footer>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer ul {
+    display: flex;
+    font-size: 0.8em;
+    gap: 6px
+}
+
+.footer> :first-child span {
+    font-weight: 600;
+}
+
+.footer> :last-child div i {
+    padding-right: 4px;
+}
