@@ -85,6 +85,10 @@ header {
     height: 2em;
 }
 
+.icon>a {
+    margin-right: 6px;
+}
+
 /*XXXXXXXXXXXXXX
 XXXXXXMAINXXXXXX
 XXXXXXXXXXXXXXX*/
